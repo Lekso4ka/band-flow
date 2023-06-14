@@ -1,24 +1,26 @@
-# Simple React Template
+Ирина
+    irina
+        компонент с карточкой
+        картинка называется Img => assets/img.png
+        components/Card
+            Img => assets/img.png
+            div.card
+                img()
+                h2
+Михаил
+    misha
+        сделать css для карточки .card
+Дмитрий
+    dima
+        найти картинку с расширением png
+        вставить ее в assets
+        подключить компонент Card внутри App.jsx
 
-Для успешной работы с проектом необходимо выполнить следующие действия:
+    leksa
+        Добавить красоты в App
 
-<ol>
-    <li>Установить <a href="https://nodejs.org/en/">Node.js</a></li>
-    <li>Скачать и распаковать проект</li>
-    <li>Открыть терминал и установить курсор терминала в папке с проектом</li>
-    <li>Установить зависимости node_modules
-        <ul>
-            <li>При наличии прав администратора
-                <div><code>npm install -g yarn</code></div>
-                <div><code>yarn install</code></div>
-            </li>
-            <li>Без прав администратора
-                <div><code>npm install</code></div>
-            </li>
-        </ul>
-    </li>
-    <li>
-        Запустить проект
-        <div><code>npm start</code></div>
-    </li>
-</ol>
+// Создать ветку и переключиться на нее
+git checkout -b leksa
+
+// Проверить все ветки в локальной папке
+git branch
