@@ -2,21 +2,20 @@ body {
 	margin: 0;
 	font-family: "Nunito", "Arial", "Helvetica", sans-serif;
 }
+#root {
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+header, footer {
+	background-color: springgreen;
+	padding: 30px;
+}
+main {
+	width: 1000px;
+	margin: 0 auto;
+}
 h1 {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 20px;
-	color: #61dafb;
-}
-h1 img {
-	height: 50px;
-	animation: rotate 3s linear infinite;
-}
-@keyframes rotate {
-	100% {
-		transform: rotate(360deg);
-	}
+	color: springgreen;
+	text-shadow: 0 0 5px forestgreen, 0 0 20px skyblue;
 }
