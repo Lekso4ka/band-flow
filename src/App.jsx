@@ -3,9 +3,11 @@ import Logo from "./assets/logo.svg";
 
 export default () => {
     return <>
-        <h1>
-            Simple React App
-            <img src={Logo} alt="React"/>
-        </h1>
+        <header/>
+        <main>
+            <h1>Работа мечты уже близко =)</h1>
+            <div></div>
+        </main>
+        <footer/>
     </>
 }
