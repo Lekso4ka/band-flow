@@ -4,8 +4,8 @@ import Img from "../assets/img.png"
 const Card = () => {
 	return (
 		<div className="Card">
-			<Img />
-			<h2></h2>
+			<img src={Img}></img>
+			<h2>Hello React!</h2>
 		</div>
 
 	)
