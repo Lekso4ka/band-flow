@@ -1,11 +1,9 @@
 import React from "react";
 import Logo from "./assets/logo.svg";
+import Card from "./components/"
 
 export default () => {
-    return <>
-        <h1>
-            Simple React App
-            <img src={Logo} alt="React"/>
-        </h1>
-    </>
+	return <>
+		<Card />
+	</>
 }
