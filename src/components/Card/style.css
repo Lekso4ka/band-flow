@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border: solid 5px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+body {
+    background-color: greenyellow;
+    color: black;
+}
