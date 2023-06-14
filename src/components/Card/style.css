@@ -9,23 +9,6 @@
     position: relative;
 }
 
-.img {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
-}
-
-
-h1,
-h2,
-h3 {
-    margin: 0;
-    font-size: 3rem;
-}
-
-body {
-    background-color: greenyellow;
-    color: black;
+ img {
+    width: 100%;   
 }
